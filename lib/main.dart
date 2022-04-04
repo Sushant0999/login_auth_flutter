@@ -31,7 +31,6 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        // initialRoute: "/login",
         home: const AuthWrapper(),
         routes: {
           MyRoute.homeRoute: (context) => const Home(),
